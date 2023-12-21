@@ -1,18 +1,18 @@
 ﻿  project2.cpp
 C:\Users\MVideo\source\repos\project2\project2\project2.cpp(48,10): warning C4305: инициализация: усечение из "double" в "float"
 C:\Users\MVideo\source\repos\project2\project2\project2.cpp(49,10): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(151,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(164,16): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(251,30): warning C4804: >=: небезопасное использование типа "bool" в операции
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(251,48): warning C4804: <=: небезопасное использование типа "bool" в операции
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(260,31): warning C4804: >=: небезопасное использование типа "bool" в операции
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(260,49): warning C4804: <=: небезопасное использование типа "bool" в операции
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(427,21): warning C4244: =: преобразование "_Rep" в "int", возможна потеря данных
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(152,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(165,16): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(252,30): warning C4804: >=: небезопасное использование типа "bool" в операции
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(252,48): warning C4804: <=: небезопасное использование типа "bool" в операции
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(261,31): warning C4804: >=: небезопасное использование типа "bool" в операции
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(261,49): warning C4804: <=: небезопасное использование типа "bool" в операции
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(426,21): warning C4244: =: преобразование "_Rep" в "int", возможна потеря данных
           with
           [
               _Rep=__int64
           ]
-C:\Users\MVideo\source\repos\project2\project2\project2.cpp(444,21): warning C4244: =: преобразование "_Rep" в "int", возможна потеря данных
+C:\Users\MVideo\source\repos\project2\project2\project2.cpp(443,21): warning C4244: =: преобразование "_Rep" в "int", возможна потеря данных
           with
           [
               _Rep=__int64

@@ -139,6 +139,7 @@ int main()
 		int b;
 		int f;
 		int count;
+		count = 0;
 		int middle;
 		short int maxim;
 		short int minim;
@@ -388,9 +389,8 @@ int main()
 					return -1;
 				}
 				for (int i = 0; i < massivelen; i++) {
-					if (B[i] >= a) {
-						count = i;
-						break;
+					if (B[i] <= a) {
+						count++;
 					}
 				}
 				cout << count << " elements are lower than " << a << endl;
@@ -403,9 +403,8 @@ int main()
 					return -1;
 				}
 				for (int i = 0; i < massivelen; i++) {
-					if (B[massivelen - i - 1] <= b) {
-						count = i;
-						break;
+					if (B[i] >= b) {
+						count++;
 					}
 				}
 				cout << count << " elements are highter than " << b << endl;
@@ -477,6 +476,7 @@ int main()
 				break;
 
 			}
+			count = 0;
 			cout << "Do you want to do something else with this massive? (1 - yes, 0 - no)" << endl;
 			if (!(cin >> _continue && _continue >= 0 && _continue <= 1))
 			{
